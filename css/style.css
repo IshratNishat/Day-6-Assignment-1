@@ -1,0 +1,167 @@
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+/* global CSS here*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,input,ul,button{
+	font-family: 'Playfair Display', serif;
+}
+span{
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e !important;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/* header part CSS*/
+
+.header{
+	width: 100%;
+}
+.navbar{
+	margin: 20px 0 !important;
+}
+.nav-item{
+	margin-left: 55px;
+}
+.nav-link{
+	color: #b4ad9e !important;
+	transition: all 0.5s ease-in-out;
+}
+.nav-link:hover{
+	text-transform: uppercase;
+	color: black !important;
+	transition: all 0.5s ease-in-out;
+}
+
+/*single-blog section CSS*/
+.single-blog{
+	width: 100%;
+}
+
+.blog-des{
+    margin: 65px;
+}
+.blog-des span{
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.blog-des h1{
+	margin: 18px 0;
+}
+.blog-des p{
+	margin-bottom: 2rem;
+}
+
+/*blog gallery CSS*/
+
+.blog-gallery{
+	width: 100%;
+}
+.post{
+	margin: 65px;
+}
+
+.post img{
+	margin-bottom: 2rem;
+}
+.post .post-des h2{
+	margin: 18px 0;
+}
+
+.post .post-des a{
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+/* subscription section CSS*/
+
+.subscription{
+	width: 100%;
+	background-color: #f0f0f0;
+	height: 300px;
+	padding: 70px 0;
+	text-align: center;
+	margin-bottom: 55px;
+}
+.subscription h1{
+	margin-bottom: 3rem;
+}
+
+form input{
+	width: 43%;
+    padding: 15px 0 7px 0;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+form input:focus{
+	outline: none;
+}
+
+form{
+	position: relative;
+}
+form i{
+	position: absolute;
+	top: 14px;
+    right: 29%;
+    font-size: 22px;
+}
+
+
+/*buttom section CSS*/
+
+.load-more{
+	margin: 80px 0 100px 0;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+.button{
+	padding: 16px 35px;
+    background: transparent;
+    border: 1px solid black;
+    color: #b4ad9e;
+}
+
+
+/*footer section CSS*/
+.footer{
+	width: 100%;
+	background-color: #f0f0f0;
+	height: 130px;
+	padding: 52px;
+	font-size: 22px;
+}
+.footer ul li{
+	list-style: none;
+	display: inline-block;
+}
+.footer ul li a{
+	color: black;
+}
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.left ul li{
+	margin-right: 20px;
+}
+.right ul li{
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+
+
+
+

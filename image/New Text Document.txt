@@ -1,0 +1,7 @@
+Font: small catagory- Ubuntu Light
+PlayfairDisplay Regular
+
+background: f0f0f0;
+
+
+cat color: b4ad9e;
