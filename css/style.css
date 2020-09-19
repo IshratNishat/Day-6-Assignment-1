@@ -62,10 +62,11 @@ a,a:hover{
 	width: 100%;
 }
 .post{
-	margin: 65px;
+	margin: 30px;
 }
 
 .post img{
+	width: 120%;
 	margin-bottom: 2rem;
 }
 .post .post-des h2{
@@ -111,8 +112,17 @@ form i{
     right: 29%;
     font-size: 22px;
 }
-
-
+.post-1 img{
+	width: 105%;
+	margin-bottom: 2rem;
+}
+.post-1{
+	margin: 35px;
+}
+.post-1 .post-des a{
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
 /*buttom section CSS*/
 
 .load-more{
